@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+
+    <title>Rampage - Key</title>
+    <link href="https://skymods.org/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://skymods.org/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="https://skymods.org/assets/css/main.css" />
+    <link rel="stylesheet" href="https://skymods.org/assets/css/owl.css" />
+    <link rel="stylesheet" href="https://skymods.org/assets/css/animate.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<script data-cfasync="false" src="//d0b9b1cxai2c03.cloudfront.net/?xcbbd=975785"></script>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/1070399411223535656/1156229607897440306/litpt8xn-removebg-preview.png?ex=6514363c&is=6512e4bc&hm=2d89fbd3dbd538b754d8109458efb6978468719e636b61e00a33be5e6efb53a5&" sizes="69x69">
+</head>
+
+  <body>
+   <div id="main"> 
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="" class="logo">
+                <img src="https://api.creavite.co/out/gVnVGjZ_a0sWs1lmyj_standard.webm" alt="" />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Search End ***** -->
+              <div class="search-input">
+                <form id="search" action="#">
+                  <input
+                    type="text"
+                    placeholder="Type Something"
+                    id="searchText"
+                    name="searchKeyword"
+                    onkeypress="handle"
+                  />
+                  <i class="fa fa-search"></i>
+                </form>
+              </div>
+              <!-- ***** Search End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="https://rampage.ch3ats.repl.co/">Home</a></li>
+                <li><a href="../download">Download</a></li>
+                <li><a href="../details">Help & FAQ</a></li>
+                <li>
+                  <a href="https://discord.gg/cKUdnxr521" target="_blank">Discord <img src="https://skymods.org/assets/images/profile-header.png" alt=""/></a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-content">
+            <!-- ***** Banner Start ***** -->
+            <div class="main-banner">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="header-text">
+                    <h6>Rampage V2 | Key</h6> 
+<h5>RAMPAGE-001847199398</h5> 
+                    <h6><br>Uploaded by <a href="#">Rampage</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ***** Banner End ***** -->
+
+            
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div></div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright © 2036 <a href="#">Rampage</a> All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://skymods.org/download/vendor/jquery/jquery.min.js"></script>
+    <script src="https://skymods.org/download/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://skymods.org/download/assets/js/isotope.min.js"></script>
+    <script src="https://skymods.org/download/assets/js/owl-carousel.js"></script>
+    <script src="https://skymods.org/download/assets/js/tabs.js"></script>
+    <script src="https://skymods.org/download/assets/js/popup.js"></script>
+    <script src="https://skymods.org/download/assets/js/custom.js"></script>
+    
+  </body>
+</html>
