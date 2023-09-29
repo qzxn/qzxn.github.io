@@ -1,0 +1,853 @@
+<html>
+
+    <head>
+
+        <!-- Title -->
+        <title>Ramsey - Features</title>
+
+        <!-- Viewport tag to fit mobile screens -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://susano.re/css/styles.css">
+
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <style>
+            body, html {
+                background: #121212 url('https://susano.re/assets/fluid5.png');
+                background-size: 100vw 100vh; background-repeat: no-repeat;
+                height: fit-content;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="details">
+            <svg id="visual" viewBox="0 0 900 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <g>
+                  <g id="details-blob1">
+                    <path d="M150.4 -127.2C200.4 -100.4 250.2 -50.2 246.9 -3.3C243.6 43.6 187.2 87.2 137.2 124.9C87.2 162.5 43.6 194.3 -4.6 198.9C-52.8 203.5 -105.6 180.9 -149.9 143.3C-194.3 105.6 -230.1 52.8 -221.4 8.7C-212.7 -35.4 -159.4 -70.7 -115 -97.5C-70.7 -124.4 -35.4 -142.7 7.4 -150.1C50.2 -157.5 100.4 -154.1 150.4 -127.2" fill="#171717"></path>
+                  </g>
+                  <g id="details-blob2">
+                    <path d="M116.4 -112.2C145.5 -87.2 160.3 -43.6 157.9 -2.4C155.6 38.9 136.1 77.8 106.9 127.8C77.8 177.8 38.9 238.9 1.6 237.2C-35.6 235.6 -71.2 171.2 -104.3 121.2C-137.5 71.2 -168.3 35.6 -170.9 -2.6C-173.4 -40.8 -147.9 -81.6 -114.7 -106.6C-81.6 -131.6 -40.8 -140.8 1.4 -142.2C43.6 -143.6 87.2 -137.2 116.4 -112.2" fill="#171717"></path>
+                  </g>
+                  <g id="details-blob3">
+                    <path d="M127.5 -146.5C158.3 -96.6 171.7 -48.3 175.7 4C179.7 56.3 174.3 112.7 143.5 154.5C112.7 196.3 56.3 223.7 10.5 213.2C-35.4 202.7 -70.7 154.4 -105 112.5C-139.4 70.7 -172.7 35.4 -190.4 -17.7C-208 -70.7 -210.1 -141.4 -175.8 -191.3C-141.4 -241.1 -70.7 -270 -11.2 -258.8C48.3 -247.7 96.6 -196.3 127.5 -146.5" fill="#171717"></path>
+                  </g>
+
+                  <g id="details-blob1-alt">
+                    <path d="M150.4 -127.2C200.4 -100.4 250.2 -50.2 246.9 -3.3C243.6 43.6 187.2 87.2 137.2 124.9C87.2 162.5 43.6 194.3 -4.6 198.9C-52.8 203.5 -105.6 180.9 -149.9 143.3C-194.3 105.6 -230.1 52.8 -221.4 8.7C-212.7 -35.4 -159.4 -70.7 -115 -97.5C-70.7 -124.4 -35.4 -142.7 7.4 -150.1C50.2 -157.5 100.4 -154.1 150.4 -127.2" fill="#171717"></path>
+                  </g>
+                  <g id="details-blob2-alt">
+                    <path d="M116.4 -112.2C145.5 -87.2 160.3 -43.6 157.9 -2.4C155.6 38.9 136.1 77.8 106.9 127.8C77.8 177.8 38.9 238.9 1.6 237.2C-35.6 235.6 -71.2 171.2 -104.3 121.2C-137.5 71.2 -168.3 35.6 -170.9 -2.6C-173.4 -40.8 -147.9 -81.6 -114.7 -106.6C-81.6 -131.6 -40.8 -140.8 1.4 -142.2C43.6 -143.6 87.2 -137.2 116.4 -112.2" fill="#171717"></path>
+                  </g>
+                  <g id="details-blob3-alt">
+                    <path d="M127.5 -146.5C158.3 -96.6 171.7 -48.3 175.7 4C179.7 56.3 174.3 112.7 143.5 154.5C112.7 196.3 56.3 223.7 10.5 213.2C-35.4 202.7 -70.7 154.4 -105 112.5C-139.4 70.7 -172.7 35.4 -190.4 -17.7C-208 -70.7 -210.1 -141.4 -175.8 -191.3C-141.4 -241.1 -70.7 -270 -11.2 -258.8C48.3 -247.7 96.6 -196.3 127.5 -146.5" fill="#171717"></path>
+                  </g>
+                </g>
+              </svg>
+        </div>
+
+        <div class="container justify-content-center d-flex w-100 featuresContainer">
+            <div class="row my-auto justify-content-center w-100" id="mainRow">
+                <div class="d-flex flex-column justify-content-center text-center features-table">
+                    <span class="typography--sizing-xxxl typography--fw-700">All Features</span>
+                    <span class="typography--sizing-lg typography--fw-600 typography--color-muted-light featuresHeaderDescription">You can check out all the features our FiveM product offers below.</span>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    wifi
+                                </span>
+                                <span class="typography--title typography--fw-800">Online</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <div class="iconWrapper">
+                                            Player List
+                                            <span class="material-icons typography--color-warning someModuleWarningSemiBlatant">
+                                                warning
+                                            </span>
+                                        </div>
+                                    </th>
+                                    <th>Want to Troll someone? Spy on him? You're at the right place.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>Vehicle List</th>
+                                    <th>Same as the player list, but for vehicles.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>Aim Assist</th>
+                                    <th>Automatically aim toward the closest target.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>Silent Aim</th>
+                                    <th>Silently aim toward the closest target.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>Trigger Bot</th>
+                                    <th>Shoot whenever you hover a target.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <div class="iconWrapper">
+                                            Extinction
+                                            <span class="material-icons typography--color-warning someModuleWarningSemiBlatant">
+                                                warning
+                                            </span>
+                                        </div>
+                                    </th>
+                                    <th>Utilities for extinction servers.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr> 
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    public
+                                </span>
+                                <span class="typography--title typography--fw-800">World</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Free Cam
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Want to troll people without moving? This is the perfect module for you.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Model Changer</th>
+                                    <th>Ever wanted to change your model? This is the right place.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Ped Spawner</th>
+                                    <th>Allows you to spawn ped around you.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Locations</th>
+                                    <th>Allows you to save locations and teleport to them later on.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    emoji_people
+                                </span>
+                                <span class="typography--title typography--fw-800">Local Player</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        God Mode
+                                        <span class="material-icons typography--color-danger moduleWarningBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>You're basically invincible.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Semi God Mode
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>You're basically invincible, except against one shot and the game technically does not know you're invincible.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Invisible
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Super Jump
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>You jump 10 time higher than usual.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        No Ragdoll
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Infinite stamina</th>
+                                    <th>You're very strong and have an infinite stamina.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        NoClip
+                                        <span class="material-icons typography--color-danger moduleWarningBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Allows you to fly all over the map.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Run Speed
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>You run faster.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Swim Speed
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>You swim faster.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Never Wanted</th>
+                                    <th>The cops never look for you.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>No Collision</th>
+                                    <th>You collide with nothing, except the floor.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Disable player blood</th>
+                                    <th>Clear your character.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Stick to ground</th>
+                                    <th>Stick your feet to the ground.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Anti HeadShot
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    visibility
+                                </span>
+                                <span class="typography--title typography--fw-800">Visual</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>ESP</th>
+                                    <th>Shows you where players are through walls.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Vehicle ESP</th>
+                                    <th>Shows you where vehicles are through walls.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Radar</th>
+                                    <th>Draws a radar to easily see where players are.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Array List</th>
+                                    <th>Show the enabled features and pop a notification when you enable/disable one of them.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Watermark</th>
+                                    <th>Draws a watermark.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                sports_mma
+                                </span>
+                                <span class="typography--title typography--fw-800">Weapons</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th><div class="iconWrapper">
+                                        No Reload
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>No Recoil</th>
+                                    <th>Recoil is extremely annoying, so why not removing it?</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>No Spread</th>
+                                    <th>Sometimes you shoot at someone, but the bullet doesn't hit at the proper place, this fix it.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Infinite Ammo
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Damage Multiplier
+                                        <span class="material-icons typography--color-danger moduleWarningBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Your weapon don't damage enough? This will fix the issue.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Fill Ammo
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Fill your clip with the amount of ammos you want.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Weapon Attachments Spawner
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Give your weapon any attachment you want.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Weapon Spawner
+                                        <span class="material-icons typography--color-danger moduleWarningBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Gives you the ability to spawn/remove any weapon you want.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    directions_car
+                                </span>
+                                <span class="typography--title typography--fw-800">Vehicles</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>God Mode</th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Engine Boost</th>
+                                    <th>Boost your engine while pressing E.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Auto Repair</th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Bullet Proof Tires
+                                        <span class="material-icons typography--color-danger moduleWarningBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Custom Primary Color</th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Custom Secondary Color</th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Plate Changer</th>
+                                    <th>Self explainatory.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Max Vehicle</th>
+                                    <th>Basically max the vehicle performances.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Vehicle Mods</th>
+                                    <th>Allows you to fully custom your vehicle.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                    <div class="iconWrapper">
+                                        Vehicle Spawner
+                                        <span class="material-icons typography--color-warning moduleWarningSemiBlatant">
+                                            warning
+                                        </span>
+                                    </div></th>
+                                    <th>Spawn game/addon vehicles.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="feature-table_card">
+                        <div class="d-flex flex-column features-table_card-header" style="text-align: left;">
+                            <div class="d-inline-flex flex-row features-table_card_header_title">
+                                <span class="material-icons typography--color-muted">
+                                    list
+                                </span>
+                                <span class="typography--title typography--fw-800">Miscellaneous</span>
+                            </div>
+                        </div>
+
+                        <div class="features_tableWrapper">
+                            <table>
+                                <tr>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">view_module</span>
+                                            Module
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">description</span>
+                                            Description
+                                        </div>
+                                    </th>
+                                    <th class="titleHeader" id="supported">
+                                        <div class="titleHeaderTextWrapper">
+                                            <span class="material-icons">done</span>
+                                            Supported by Ramsey?
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Configs</th>
+                                    <th>Allow you to save your config so you don't have to make your settings all the time.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>Unload</th>
+                                    <th>Allow you to unload Ramsey.</th>
+                                    <th class="checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 4.5px; margin-right: 5px;" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#06cc66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <section>
+            <footer class="sideware--footer">
+                <div class="d-flex flex-row">
+                    <span class="typography--detail">© 2022-2023 <a class="hyperlink" href="https://github.com/RamseyRE/" target="_blank">Ramsey </a>, trading as Ramsey.</span>
+    
+                    <a href="//www.dmca.com/Protection/Status.aspx?ID=f2319f50-d3a5-4087-8684-a98355056430" title="DMCA.com Protection Status" class="dmca-badge;">
+                        <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-02.png?ID=f2319f50-d3a5-4087-8684-a98355056430"  alt="DMCA.com Protection Status" />
+                    </a>  
+                    <div class="ms-auto">
+                        <a class="hyperlink typography--sizing-sm" href="/tos">Terms Of Services</a>
+                        <a class="hyperlink typography--sizing-sm" href="https://t.me/" target="_blank">Telegram</a>
+                        <a class="hyperlink typography--sizing-sm" href="https://discord.gg/" target="_blank">Discord</a>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        
+        <!-- TippyJS -->
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+
+        <script src="https://susano.re/js/features.js"></script>
+    </body>
+
+</html>
